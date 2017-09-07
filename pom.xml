@@ -1016,18 +1016,18 @@
 		</pluginRepository>
 	</pluginRepositories>
 
-	<distributionManagement>
-		<repository>
-			<id>openmrs-repo-releases</id>
-			<name>OpenMRS Nexus Releases</name>
-			<url>http://mavenrepo.openmrs.org/nexus/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>openmrs-repo-snapshots</id>
-			<name>OpenMRS Nexus Snapshots</name>
-			<url>http://mavenrepo.openmrs.org/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
+<distributionManagement>
+  <repository>
+    <id>satya_release</id>
+    <url>http://localhost:8081/nexus/content/repositories/satya_release</url>
+  </repository>
+
+  <snapshotRepository>
+    <id>satya_snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/satya_snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
